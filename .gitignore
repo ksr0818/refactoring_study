@@ -1,0 +1,16 @@
+# Project exclude paths
+/.gradle/
+/build/
+/out/
+/.idea/
+**/.idea/
+bin/
+/.jar/
+gradle
+gradlew
+gradlew.bat
+**/.gradle/
+.gradle
+build/
+HELP.md
+!gradle/wrapper/gradle-wrapper.jar
