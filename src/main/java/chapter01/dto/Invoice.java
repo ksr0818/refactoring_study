@@ -12,14 +12,4 @@ public class Invoice {
 
     @JsonSetter("performances")
     private Performance[] performances;
-
-    @Getter
-    @ToString
-    public static class Performance {
-        @JsonSetter("playID")
-        private String playId;
-
-        @JsonSetter("audience")
-        private int audience;
-    }
 }
